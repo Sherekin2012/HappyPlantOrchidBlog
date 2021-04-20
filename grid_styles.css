@@ -48,6 +48,9 @@ h3,
     row-gap: 1.5rem;
 }
 
+.item{
+    padding:2rem;
+}
 
 
 /* Header*/
@@ -77,12 +80,12 @@ h3,
 }
 
 .links {
-    padding: 2rem;
     text-align: left;
 }
 
 .links i{
     margin-right: 0.4rem;
+    margin-bottom:1rem;
 }
 
 a{
@@ -155,5 +158,6 @@ i {
     .item6{
         grid-column-start: 1;
         grid-column-end: 4;
+        justify-content: space-evenly;
      }
 }
