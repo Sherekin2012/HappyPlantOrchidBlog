@@ -21,6 +21,7 @@
 
 * {
     box-sizing: border-box;
+   
     
 }
 
@@ -90,6 +91,7 @@ a{
 
 a:hover {
 color: rgb(16, 138, 46);
+transition: color 0.5s;
 }
 
 
@@ -146,6 +148,10 @@ i {
 }
 
 @media(max-width:640px){
+    #grid{
+        display:flex;
+        flex-direction: column;
+    }
     .item6{
         grid-column-start: 1;
         grid-column-end: 4;
